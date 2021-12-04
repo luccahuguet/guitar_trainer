@@ -1,11 +1,6 @@
-# import Unicode
-# using Pkg
-# Pkg.add("Unicode")
-# using Unicode
 
 function train_notes_names()
-  # notes_dict = Dict("A" => "Lá", "B" => "Si", "C" => "Dó", "D" => "Ré", "E" => "Mi", "F" => "Fá", "G" => "Sol")
-  notes_array = (("A", "Lá"), ("B", "Si"), ("C", "Dó"), ("D", "Ré"), ("E", "Mi"), ("F", "Fá"), ("G", "Sol"))
+  notes_array = (("A", "La"), ("B", "Si"), ("C", "Do"), ("D", "Re"), ("E", "Mi"), ("F", "Fa"), ("G", "Sol"))
 
   wish_to_continue = "y"
 
@@ -20,13 +15,13 @@ function train_notes_names()
     note_name = readline()
 
     # check if user input is correct
-    if normalize(uppercase(note_name)) == normalize(uppercase(notes_array[note_idx][2]))
+    if uppercase(note_name) == uppercase(notes_array[note_idx][2])
       println("Correct!")
-  else
+    else
       println("Wrong! The correct answer is", notes_array[note_idx][2])
     end
 
-    println("\nDo you want to continue? (y/n)")
+    println("\nType 'q' to quit or any other key to continue")
     wish_to_continue = readline()
   end
 end
