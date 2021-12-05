@@ -1,4 +1,4 @@
-# guitar_trainer
+# Guitar Trainer
 
 The following is a julia program to help you develop your musical abilities.
 
