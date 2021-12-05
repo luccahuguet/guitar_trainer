@@ -4,7 +4,8 @@ The following is a julia program to help you develop your musical abilities.
 
 For now, it will help you train the notes names, by asking them randomly, for example:
 
-```What letter represents this note: E?
+```
+What letter represents this note: E?
 mi
 Correct!
 
