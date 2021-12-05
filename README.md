@@ -30,4 +30,4 @@ example: open a terminal and run "julia C:\Users\your_user_name\programs\guitar_
 
 # Roadmap
 
-1 - Develop another mode to remember which note is which string in an acoustic guitar (with 6 string)
+1 - Develop another mode to remember which note is which string in an acoustic guitar (with 6 strings)
