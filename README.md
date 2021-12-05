@@ -25,4 +25,5 @@ Wrong! The correct answer is La
 2 - git clone this repo
 
 3 - run guitar_trainer.jl: run "julia path/to/guitar_trainer.jl" in a terminal.
-3.1 - example: open a terminal and run "julia C:\Users\your_user_name\programs\guitar_trainer\guiter_trainer.jl" 
+
+example: open a terminal and run "julia C:\Users\your_user_name\programs\guitar_trainer\guiter_trainer.jl" 
