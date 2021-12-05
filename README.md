@@ -27,3 +27,7 @@ Wrong! The correct answer is La
 3 - run guitar_trainer.jl: run "julia path/to/guitar_trainer.jl" in a terminal.
 
 example: open a terminal and run "julia C:\Users\your_user_name\programs\guitar_trainer\guiter_trainer.jl" 
+
+# Roadmap
+
+1 - Develop another mode to remember which note is which string
