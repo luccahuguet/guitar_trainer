@@ -14,7 +14,8 @@ Correct!
 
 What letter represents this note: A?
 sol
-Wrong! The correct answer is La```
+Wrong! The correct answer is La
+```
 
 # Installation
 
